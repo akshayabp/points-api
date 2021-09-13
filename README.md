@@ -39,6 +39,7 @@
 - Once project is up and running, you can visit following link for documentation:<br/>
 ```
 http://$hostname:8085/swagger-ui/#/
-```<br/>
+```
+<br/>
 Replace $hostname by localhost (if you are running locally) or hostname of machine on which docker is running.
 
