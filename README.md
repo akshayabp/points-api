@@ -21,7 +21,6 @@
 ### Run pre-existing docker image
 
 - Make sure docker is installed on your machine and docker process is running.
-- Make sure docker is installed on your machine.
 - Run using command : ```docker run -d -p 8085:8085 --name points-api akshaypawaskar/points-api```
 
 ### Build docker image
@@ -36,9 +35,10 @@
 - Run using command : ```docker run -p 8085:8085 -d --name points-api points-api:0.0.1-SNAPSHOT```
 
 ### Documentation.
-- I have used SwaggerUI to generate docs for REST APIs. It provides convenient UI to view rest endpoints and also test them.
+- I have used SwaggerUI to generate docs for REST APIs. It provides convenient UI to view all the rest endpoints and also test them.
 - Once project is up and running, you can visit following link for documentation:<br/>
 ```
 http://$hostname:8085/swagger-ui/#/
-```
+```<br/>
+Replace $hostname by localhost (if you are running locally) or hostname of machine on which docker is running.
 
