@@ -43,3 +43,6 @@ http://$hostname:8085/swagger-ui/#/
 <br/>
 Replace $hostname by localhost (if you are running locally) or hostname of machine on which docker is running.
 
+![https://github.com/akshayabp/points-api/blob/main/screenshot1.JPG?raw=true](https://github.com/akshayabp/points-api/blob/main/screenshot1.JPG?raw=true)
+
+
